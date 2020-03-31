@@ -4,7 +4,7 @@ const path = require('path')
 let options = {
   title: 'electron 通知API',
   body: 'hello poetries',
-  icon: '../static/app-icon.png' // 通知图标
+  icon: path.join(__dirname, '../static/app-icon.png') // 通知图标
 }
 
 

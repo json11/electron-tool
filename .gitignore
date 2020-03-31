@@ -1,1 +1,9 @@
-node_modules
+.idea
+.vscode
+dist
+.DS_Store
+*.log
+*.zip
+lint.xml
+upload.sh
+node_modules/*
